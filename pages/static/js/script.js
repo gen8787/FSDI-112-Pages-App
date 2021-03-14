@@ -1,0 +1,1 @@
+btnClick = () => alert("Contact!");
