@@ -1,0 +1,15 @@
+body {
+    background-image: linear-gradient(#f3f0c2, #b9b57e);
+    /* min-height: 100vh; */
+}
+
+.container {
+    min-height: 75vh;
+}
+
+
+footer {
+    background-color: #2D3338;
+    min-height: 20vh;
+    color: white;
+}

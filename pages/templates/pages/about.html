@@ -1,10 +1,32 @@
 {% extends "base.html" %}
 
+{% block title %}About{% endblock title %}
+
 {% block content %}
 <div class="container">
-    <h1>About Me</h1>
-    
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro totam molestiae magni repellendus quam quis nostrum exercitationem animi amet voluptates quas saepe, distinctio, incidunt expedita doloremque! Perspiciatis perferendis fuga, recusandae reiciendis ex commodi numquam incidunt animi laboriosam obcaecati dicta at libero officia culpa laborum in voluptates temporibus veritatis pariatur quia?</p>
+    <div class="jumbotron">
+        <h1 class="display-4">About Me</h1>
+
+        <p class="lead">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium quisquam odio placeat, vel aut ducimus nostrum nihil dicta. Error voluptatem suscipit vitae voluptate dolor commodi recusandae non culpa est labore? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium quisquam odio placeat, vel aut ducimus nostrum nihil dicta. Error voluptatem suscipit vitae voluptate dolor commodi recusandae non culpa est labore?</p>
+        <hr>
+
+        <div class="row">
+            <div class="col-6">
+                <img class="w-75 rounded pt-4 pb-5" src="../../static/img/me.png" alt="">
+                <p class="lead">
+                    <a class="btn btn-primary btn-lg" href="#" role="button">Contact Me</a>
+                </p>
+            </div>
+
+            <div class="col-6">
+                <h1 class="display-6">Background</h1>
+                <p class="lead">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium quisquam odio placeat, vel aut ducimus nostrum nihil dicta. Error voluptatem suscipit vitae voluptate dolor commodi recusandae non culpa est labore? Lorem, ipsum dolor sit amet consectetur adipisicing elit.Accusantium quisquam odio placeat, vel aut ducimus nostrum nihil dicta. Error voluptatem suscipit vitae voluptate dolor commodi recusandae non culpa est labore?</p>
+
+                <p class="lead">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium quisquam odio placeat, vel aut ducimus nostrum nihil dicta. Error voluptatem suscipit vitae voluptate dolor commodi recusandae non culpa est labore? Lorem, ipsum dolor sit amet consectetur adipisicing elit.Accusantium quisquam odio placeat, vel aut ducimus nostrum nihil dicta. Error voluptatem suscipit vitae voluptate dolor commodi recusandae non culpa est labore?</p>
+            </div>
+        </div>
+
+    </div>
 </div>
 
 {% endblock content %}
